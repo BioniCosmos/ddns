@@ -15,6 +15,7 @@ type Config struct {
 	IPSource string   `json:"ipSource,omitempty"`
 	TTL      int      `json:"ttl,omitempty"`
 	Cache    bool     `json:"cache,omitempty"`
+	Proxy    string   `json:"proxy,omitempty"`
 }
 
 type Domains struct {
